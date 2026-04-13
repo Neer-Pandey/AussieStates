@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+body {
+  font-family: Arial, sans-serif;
+  background: #d9d9d9;
+  color: #333;
+  margin: 0;
+}
+
+#wrapper {
+  width: 96%;
+  max-width: 1300px;
+  margin: 10px auto;
+  background: #ffffff;
+}
+
+header {
+  background: #e6e6e6;
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+}
+
+#logo img {
+  width: 70px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #28c5c5;
+  font-size: 48px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #28c5c5;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
+
+.hero-image {
+  position: relative;
+  clear: both;
+}
+
+.hero-image img {
+  width: 100%;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40px;
+  right: 90px;
+  width: 320px;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  border: 3px solid white;
+}
+
+main {
+  float: left;
+  width: 64%;
+  padding: 25px;
+}
+
+aside {
+  float: right;
+  width: 28%;
+  padding: 25px;
+}
+
+main h2,
+aside h2 {
+  font-size: 38px;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+main img {
+  margin: 20px 0;
+  width: 380px;
+}
+
+footer {
+  clear: both;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+/* ===== CONTACT PAGE FIXES ===== */
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 30px;
+  font-size: 14px;
+}
+
+.contact-table th,
+.contact-table td {
+  border: 1px solid #bfbfbf;
+  padding: 8px;
+  vertical-align: top;
+}
+
+.contact-table th {
+  background: #efefef;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  background: #f3f3f3;
+  padding: 20px;
+  width: 85%;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 6px;
+  font-size: 14px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bfbfbf;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background: #36c7c7;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-top: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2ab0b0;
+}
